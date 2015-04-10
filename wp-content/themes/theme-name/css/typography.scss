@@ -1,0 +1,78 @@
+$b-font: "proxima-nova", sans-serif;
+
+// @font-face {
+//     font-family: 'Constantia';
+//     src: url('./fonts/Constantia.eot');
+//     src: url('./fonts/Constantia.eot') format('embedded-opentype'),
+//          url('./fonts/Constantia.woff2') format('woff2'),
+//          url('./fonts/Constantia.woff') format('woff'),
+//          url('./fonts/Constantia.ttf') format('truetype'),
+//          url('./fonts/Constantia.svg#Constantia') format('svg');
+// }
+
+//Base font
+$base-font-size: 16px;
+
+
+body, html{
+  font-family: $b-font;
+  font-size: $base-font-size;
+  line-height:22px;
+}
+
+
+h1,h2,h3,h4,h5,p,a,cite,em,blockquote{
+  font-family: $b-font;
+  line-height: 1.3em;
+  position:relative;
+}
+
+h1{
+  font-size: em(42px);
+  font-weight:300;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+
+h2{
+  font-size: em(38px);
+  font-weight:300;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+h3{
+  font-size: em(32px);
+  font-weight:300;
+}
+
+h4{
+  font-size: em(24px);
+  font-weight:300;
+  padding-bottom:10px;
+}
+
+
+p{
+
+}
+
+a{
+
+}
+
+blockquote{
+
+}
+
+cite{
+
+}
+
+em{
+
+}
+
+
+
